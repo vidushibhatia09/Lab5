@@ -35,4 +35,16 @@ public class BankAccount {
     /*
      * Implement getters and setters as appropriate for private variables.
      */
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+    public double setAccountBalance(double setAccountBalance) {
+        setAccountBalance = accountBalance;
+    }
+    public double getAccountNumber() {
+        return accountNumber;
+    }
+    public double setAccountNumber(double setAccountNumber) {
+        setAccountNumber = accountNumber;
 }
